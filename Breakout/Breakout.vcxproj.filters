@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{4c590b66-4de2-4824-ae41-927184772cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{44629732-b1eb-4774-916d-d9bce4a4a89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers Source">
+      <UniqueIdentifier>{7017efa4-53cd-43eb-96f4-f1a4d73117a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers Headers">
+      <UniqueIdentifier>{040294e1-8a3e-441d-9fa9-848428094180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Breakout">
+      <UniqueIdentifier>{f3cd055f-0df7-4a6b-aba3-ad75bd6f1160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Breakout\Breakout Headers">
+      <UniqueIdentifier>{d78b9c50-1587-4c02-89d4-ab7b3cebee4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Breakout\Breakout Source">
+      <UniqueIdentifier>{64cf9f23-43de-4638-82f6-996ce300ccc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\AnimatedTexture.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\GameEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\Texture.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Managers Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Managers Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\GameManager.cpp">
+      <Filter>Source Files\Managers Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Managers Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\AnimatedTexture.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\GameEntity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\Texture.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Managers Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Managers Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\GameManager.h">
+      <Filter>Header Files\Managers Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Managers Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
