@@ -1,0 +1,29 @@
+﻿  Ball.cpp
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Ball.cpp(32,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Ball.cpp(33,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Ball.cpp(39,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Board.cpp
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Board.cpp(13,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Board.cpp(52,42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Board.cpp(53,42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Entity.cpp
+  Game.cpp
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Game.cpp(79,30): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  Paddle.cpp
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Paddle.cpp(30,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Breakout\Paddle.cpp(31,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+GameManager.obj : error LNK2019: unresolved external symbol "public: __thiscall SDLFramework::GameEntity::GameEntity(float,float)" (??0GameEntity@SDLFramework@@QAE@MM@Z) referenced in function "public: __thiscall SDLFramework::GameManager::GameManager(void)" (??0GameManager@SDLFramework@@QAE@XZ)
+Texture.obj : error LNK2001: unresolved external symbol "public: __thiscall SDLFramework::GameEntity::GameEntity(float,float)" (??0GameEntity@SDLFramework@@QAE@MM@Z)
+GameManager.obj : error LNK2019: unresolved external symbol "public: void __thiscall SDLFramework::GameEntity::Position(struct SDLFramework::Vector2 const &)" (?Position@GameEntity@SDLFramework@@QAEXABUVector2@2@@Z) referenced in function "public: __thiscall SDLFramework::GameManager::GameManager(void)" (??0GameManager@SDLFramework@@QAE@XZ)
+GameManager.obj : error LNK2019: unresolved external symbol "public: struct SDLFramework::Vector2 __thiscall SDLFramework::GameEntity::Position(enum SDLFramework::GameEntity::Space)" (?Position@GameEntity@SDLFramework@@QAE?AUVector2@2@W4Space@12@@Z) referenced in function "public: __thiscall SDLFramework::GameManager::GameManager(void)" (??0GameManager@SDLFramework@@QAE@XZ)
+Texture.obj : error LNK2001: unresolved external symbol "public: struct SDLFramework::Vector2 __thiscall SDLFramework::GameEntity::Position(enum SDLFramework::GameEntity::Space)" (?Position@GameEntity@SDLFramework@@QAE?AUVector2@2@W4Space@12@@Z)
+GameManager.obj : error LNK2019: unresolved external symbol "public: void __thiscall SDLFramework::GameEntity::Scale(struct SDLFramework::Vector2)" (?Scale@GameEntity@SDLFramework@@QAEXUVector2@2@@Z) referenced in function "public: void __thiscall SDLFramework::GameManager::Update(void)" (?Update@GameManager@SDLFramework@@QAEXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol "public: struct SDLFramework::Vector2 __thiscall SDLFramework::GameEntity::Scale(enum SDLFramework::GameEntity::Space)" (?Scale@GameEntity@SDLFramework@@QAE?AUVector2@2@W4Space@12@@Z) referenced in function "public: void __thiscall SDLFramework::GameManager::Update(void)" (?Update@GameManager@SDLFramework@@QAEXXZ)
+Texture.obj : error LNK2001: unresolved external symbol "public: struct SDLFramework::Vector2 __thiscall SDLFramework::GameEntity::Scale(enum SDLFramework::GameEntity::Space)" (?Scale@GameEntity@SDLFramework@@QAE?AUVector2@2@W4Space@12@@Z)
+GameManager.obj : error LNK2019: unresolved external symbol "public: void __thiscall SDLFramework::GameEntity::Parent(class SDLFramework::GameEntity *)" (?Parent@GameEntity@SDLFramework@@QAEXPAV12@@Z) referenced in function "public: __thiscall SDLFramework::GameManager::GameManager(void)" (??0GameManager@SDLFramework@@QAE@XZ)
+GameManager.obj : error LNK2019: unresolved external symbol "public: void __thiscall SDLFramework::GameEntity::Translate(struct SDLFramework::Vector2,enum SDLFramework::GameEntity::Space)" (?Translate@GameEntity@SDLFramework@@QAEXUVector2@2@W4Space@12@@Z) referenced in function "public: void __thiscall SDLFramework::GameManager::Update(void)" (?Update@GameManager@SDLFramework@@QAEXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol "public: void __thiscall SDLFramework::GameEntity::Rotate(float)" (?Rotate@GameEntity@SDLFramework@@QAEXM@Z) referenced in function "public: void __thiscall SDLFramework::GameManager::Update(void)" (?Update@GameManager@SDLFramework@@QAEXXZ)
+Texture.obj : error LNK2019: unresolved external symbol "public: __thiscall SDLFramework::GameEntity::~GameEntity(void)" (??1GameEntity@SDLFramework@@QAE@XZ) referenced in function __unwindfunclet$??0Texture@SDLFramework@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0HUSDL_Color@@_N@Z$2
+Texture.obj : error LNK2019: unresolved external symbol "public: float __thiscall SDLFramework::GameEntity::Rotation(enum SDLFramework::GameEntity::Space)" (?Rotation@GameEntity@SDLFramework@@QAEMW4Space@12@@Z) referenced in function "public: virtual void __thiscall SDLFramework::Texture::Render(void)" (?Render@Texture@SDLFramework@@UAEXXZ)
+C:\Users\Anthony.OBlenis\source\repos\Breakout\Debug\Breakout.exe : fatal error LNK1120: 10 unresolved externals

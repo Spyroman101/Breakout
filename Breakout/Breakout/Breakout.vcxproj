@@ -158,37 +158,36 @@ xcopy "$(ProjectDir)\Assets\*" "$(OutDir)Assets\" /y /s</Command>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Ball.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Board.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Entity.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Game.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Paddle.cpp" />
     <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\AnimatedTexture.cpp" />
     <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\GameManager.cpp" />
     <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\Texture.cpp" />
     <ClCompile Include="..\..\SDL_Tutorial\SDL_Tutorial\Timer.cpp" />
     <ClCompile Include="AssetManager.cpp" />
     <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameEntity.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Paddle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Ball.h" />
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Board.h" />
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Entity.h" />
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Game.h" />
     <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\main.h" />
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Paddle.h" />
     <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\AnimatedTexture.h" />
     <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\GameManager.h" />
     <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\Texture.h" />
     <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\Timer.h" />
     <ClInclude Include="AssetManager.h" />
     <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameEntity.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="InputManager.h" />
-    <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="Paddle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

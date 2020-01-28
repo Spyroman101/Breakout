@@ -63,26 +63,23 @@
     <ClCompile Include="InputManager.cpp">
       <Filter>Source Files\Managers Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Paddle.cpp">
+    <ClCompile Include="Board.cpp">
       <Filter>Breakout\Breakout Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Game.cpp">
+    <ClCompile Include="Ball.cpp">
       <Filter>Breakout\Breakout Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Board.cpp">
+    <ClCompile Include="Paddle.cpp">
       <Filter>Breakout\Breakout Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Ball.cpp">
+    <ClCompile Include="Game.cpp">
       <Filter>Breakout\Breakout Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Entity.cpp">
+    <ClCompile Include="GameEntity.cpp">
       <Filter>Source Files\Entities</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MathHelper.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\SDL_Tutorial\SDL_Tutorial\AnimatedTexture.h">
       <Filter>Header Files\Entities</Filter>
     </ClInclude>
@@ -110,19 +107,19 @@
     <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Paddle.h">
+    <ClInclude Include="Ball.h">
       <Filter>Breakout\Breakout Headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Game.h">
+    <ClInclude Include="Board.h">
       <Filter>Breakout\Breakout Headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Board.h">
+    <ClInclude Include="Paddle.h">
       <Filter>Breakout\Breakout Headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Ball.h">
+    <ClInclude Include="Game.h">
       <Filter>Breakout\Breakout Headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\breakout-cpp-sdl2\Source\Breakout\Entity.h">
+    <ClInclude Include="GameEntity.h">
       <Filter>Header Files\Entities</Filter>
     </ClInclude>
   </ItemGroup>

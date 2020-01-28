@@ -1,46 +1,23 @@
 #ifndef __GAMEENTITY_H
 #define __GAMEENTITY_H
-#include "MathHelper.h"
+
+#include "SDL.h"
+#include "SDL_image.h"
 namespace SDLFramework {
 
     class GameEntity {
-    public:
-        enum Space { Local = 0, World = 1 };
+        GameEntity(SDL_Renderer* renderer);
+        virtual ~GameEntity();
 
-    private:
-        Vector2 mPosition;
-        float mRotation;
-        Vector2 mScale;
+        float x, y, width, height;
 
-        bool mActive;
-        GameEntity * mParent;
-    public:
-        GameEntity(float x = 0.0f, float y = 0.0f);
-        ~GameEntity();
+        virtual void Update(float delta);
+        virtual void Render(float delta);
 
-        void Position(float x, float y);
-        void Position(const Vector2& pos);
-        Vector2 Position(Space space = World);
-       
-        void Rotation(float rot);
-        float Rotation(Space space = World);
-        
-        void Scale(Vector2 scale);
-        Vector2 Scale(Space space = World);
-        
-        void Active(bool active);
-        bool Active();
-        
-        void Parent(GameEntity * parent);
-        GameEntity * Parent();
- 
-        void Translate(Vector2 vec, Space space = Local);
-        void Rotate(float amount);
-        virtual void Update() {};
-        virtual void Render() {};
+        bool Collides(GameEntity* other);
+    protected:
+        SDL_Renderer* renderer;
 
-       
-        
 
     };
    
